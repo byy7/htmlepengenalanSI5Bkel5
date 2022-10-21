@@ -1,0 +1,121 @@
+a:hover{
+    color: rgb(8, 6, 6);
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2, h3{
+    font-family: "Quicksand";
+    color: #f4a460;
+}
+
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+
+.profile header {
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    color: rgb(194, 76, 76);
+    background-color:#f4a460;
+    text-align: center;
+    font-weight:bold;
+}
+
+.featured-image {
+    width: 50%;
+    max-height:600px;
+    object-fit: cover;
+    object-position: center;
+    display: block; margin: auto;
+}
+
+.profile img {
+    width: 200px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.jumbotron{
+    font-size: 20px;
+    padding: 60px;
+    background-color: #f4a460;
+    text-align: center;
+    color: #A0522D;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #A0522D;
+    padding: 5px;
+    position:sticky;
+    top: 0;
+
+}
+nav a{
+    font-size:18px;
+    font-wEight: 400;
+    text-decoration: none;
+    color: #0a0908;
+}
+
+main {
+    padding:20px;
+    overflow: auto;
+}
+
+#content{
+    float: left;
+    width:  75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+header{
+    display: inline;
+}
+
+@media screen and (max-width: 1000px){
+    #content,
+    aside{
+        width: 100%;
+        padding: 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,27 @@
+<aside>
+                
+                <article class="profile card">
+                           <header>
+                               <h2>Biodata Diri</h2>
+                               <p>Tak kenal maka taksayang</p>
+                               <figure>
+                                    <img src="assets/image/20210117_003323_polarr_filter4114318543839518822.jpg" class="featured-image"  alt="">
+                                    <figcaption>hello</figcaption>
+                               </figure>
+                           </header>
+                           <section>
+                                <table border="2">
+                                    <tr>
+                                        <th>Nama</th>
+                                        <td>Rohima ayu chintiya</td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <th>Nim</th>
+                                        <td>201410015<sup>
+                                    </tr>
+                                </table>
+                            </section>
+                </article>
+                
+            </aside>
